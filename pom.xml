@@ -7,8 +7,8 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <modules>
+    <module>org.nidget.eclipse.djeclipse.plugin</module>  
     <module>org.nidget.eclipse.djeclipse.feature</module>
-    <module>org.nidget.eclipse.djeclipse.plugin</module>
     <module>org.nidget.eclipse.djeclipse.p2updatesite</module>
   </modules>
   <properties>
@@ -65,10 +65,7 @@
   </build>
   <profiles>
     <profile>
-      <id>indigo</id>
-      <activation>
-        <activeByDefault>true</activeByDefault>
-      </activation>	  
+      <id>indigo</id>  
       <repositories>
         <repository>
 	      <id>indigo</id>
@@ -79,6 +76,9 @@
     </profile>
 	<profile>
       <id>juno</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>      
       <repositories>
         <repository>
 		  <id>juno</id>

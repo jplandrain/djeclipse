@@ -1,8 +1,18 @@
-/.settings
-.project
+# Eclipse .settings directories in all levels
+.settings/
 
-*.class
+# target directories in all levels
+target/
 
-# Package Files #
-*.war
-*.ear
+## Eclipse .project files in all levels
+**/.project
+
+## Eclipse .classpath files in all levels
+**/.classpath
+
+# Class Files in all levels
+**/*.class
+
+# Package Files in all levels
+**/*.war
+**/*.ear
