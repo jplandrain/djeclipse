@@ -15,6 +15,5 @@ Require-Bundle: org.eclipse.ui,
  org.eclipse.ui.console
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-ActivationPolicy: lazy
-Bundle-ClassPath: lib/cfr_0_29.jar,
- target/classes/,
- .
+Bundle-ClassPath: .,
+ lib/cfr_0_29.jar

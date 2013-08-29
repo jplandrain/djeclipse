@@ -5,16 +5,16 @@
       version="0.0.1.qualifier"
       provider-name="Nidget.org">
 
-   <description url="http://www.example.com/description">
-      [Enter Feature Description here.]
+   <description url="https://github.com/jplandrain/djeclipse">
+      An Eclipse plugin that gives access to several java decompilers side-by-side.
    </description>
 
-   <copyright url="http://www.example.com/copyright">
-      [Enter Copyright Description here.]
+   <copyright>
+     %copyright
    </copyright>
 
-   <license url="http://www.example.com/license">
-      [Enter License Description here.]
+   <license url="%licenseURL">
+     %license%
    </license>
 
    <plugin
