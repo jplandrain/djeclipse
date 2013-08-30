@@ -7,3 +7,5 @@ Installation
 ============
 
 The Eclipse update site is published on BinTray: https://bintray.com/jplandrain/djeclipse/djeclipse-update-site
+
+![](http://web-static-cloudfront.s3.amazonaws.com/images/badges/BuiltOnDEV.png)
