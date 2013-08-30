@@ -1,7 +1,7 @@
 DJEclipse
 =========
 
-An Eclipse plugin that gives access to several java decompilers side-by-side.
+An Eclipse plugin that gives access to several java decompilers side-by-side. 
 
 Installation
 ============
