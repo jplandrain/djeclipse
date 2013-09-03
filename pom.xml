@@ -98,4 +98,18 @@
       </repositories>
     </profile>	
   </profiles>  
+  <ciManagement>
+    <system>Jenkins</system>
+  	<url>http://djeclipse.ci.cloudbees.com/</url>
+  </ciManagement>
+  <issueManagement>
+  	<system>GitHub</system>
+  	<url>https://github.com/jplandrain/djeclipse/issues</url>
+  </issueManagement>
+  <organization>
+  	<name>Nidget.org</name>
+  </organization>
+  <scm>
+  	<url>https://github.com/jplandrain/djeclipse.git</url>
+  </scm>
 </project>
