@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
       id="org.nidget.eclipse.djeclipse.feature"
-      label="DJEclipse feature"
+      label="DJEclipse plugin"
       version="0.0.1.qualifier"
       provider-name="Nidget.org">
 
