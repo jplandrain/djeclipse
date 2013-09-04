@@ -64,16 +64,6 @@
 	</plugins>
   </build>
   <profiles>
-    <profile>
-      <id>indigo</id>  
-      <repositories>
-        <repository>
-	      <id>indigo</id>
-	      <layout>p2</layout>
-	      <url>http://download.eclipse.org/releases/indigo/</url>
-        </repository>
-      </repositories>
-    </profile>
 	<profile>
       <id>juno</id>
       <activation>
@@ -97,6 +87,16 @@
         </repository>
       </repositories>
     </profile>	
+	<profile>
+      <id>luna</id>
+      <repositories>
+        <repository>
+	      <id>luna</id>
+	      <layout>p2</layout>
+    	  <url>http://download.eclipse.org/releases/luna/</url>
+        </repository>
+      </repositories>
+    </profile>    
   </profiles>  
   <ciManagement>
     <system>Jenkins</system>
