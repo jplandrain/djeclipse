@@ -3,10 +3,24 @@ DJEclipse
 
 An Eclipse plugin that gives access to several java decompilers side-by-side.
 
+Changelog
+=========
+
+0.0.1-SNAPSHOT (2013/09/12)
+The current very unstable preliminary version integrates the CFR decompiler (version 0.31) 
+http://www.benf.org
+
+Roadmap
+=======
+
+- Integrate the JD Project of Emmanual Dupuy (http://jd.benow.ca/)
+- Improve the usability
+
 Installation
 ============
 
-The Eclipse update site is published on BinTray: https://bintray.com/jplandrain/djeclipse/djeclipse-update-site
+The Eclipse update site will be published on BinTray as soon as the first release is ready. 
+https://bintray.com/jplandrain/djeclipse/djeclipse-update-site
 
 Continuous Integration
 ======================

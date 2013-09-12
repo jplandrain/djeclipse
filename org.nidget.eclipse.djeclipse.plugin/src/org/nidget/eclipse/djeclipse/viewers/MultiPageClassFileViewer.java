@@ -259,7 +259,6 @@ public class MultiPageClassFileViewer extends MultiPageEditorPart implements IRe
 			FileStoreEditorInput fileEditor = (FileStoreEditorInput)editorInput;
 			URI fileURI = fileEditor.getURI();
 						
-			//IFile file = fileEditor.get
 			if(!fileURI.getPath().endsWith(".class")) {
 				StringBuilder errorMsg = new StringBuilder(fileURI.getPath());
 				errorMsg.append(" is not a class file");
@@ -275,7 +274,6 @@ public class MultiPageClassFileViewer extends MultiPageEditorPart implements IRe
 		}
 		
 		// Set the title of the multi-editor tab with the filename
-		// TODO
 		setPartName(editorInput.getName());
 	}
 	
