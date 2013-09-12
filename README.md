@@ -22,9 +22,9 @@ Installation
 
 The Eclipse update site will be published on BinTray as soon as the first release is ready.
 
-https://bintray.com/jplandrain/djeclipse/djeclipse-update-site
+http://bintray.com/jplandrain/djeclipse/djeclipse-update-site
 
-In the meantime, you can donwload the preliminary releases from the continuous integration platform: https://djeclipse.ci.cloudbees.com/job/DJEclipse/
+In the meantime, you can donwload the preliminary releases from the continuous integration platform: http://djeclipse.ci.cloudbees.com/job/DJEclipse/
 
 Continuous Integration
 ======================
