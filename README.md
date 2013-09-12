@@ -8,31 +8,29 @@ Changelog
 
 * 0.0.1-SNAPSHOT (2013/09/12)
 
-The current very unstable preliminary version integrates the CFR decompiler 0.31 of Lee Benfield
-http://www.benf.org
+The current very unstable preliminary version integrates the CFR decompiler 0.31 of [Lee Benfield](http://www.benf.org).
 
 Roadmap
 =======
 
-- Integrate the JD Project of Emmanuel Dupuy (http://jd.benow.ca/)
-- Improve the usability
+- Integrate the [JD Project](http://jd.benow.ca/) of Emmanuel Dupuy.
+- Improve the usability.
 
 Installation
 ============
 
-The Eclipse update site will be published on BinTray as soon as the first release is ready.
+The Eclipse update site will be published on [Bintray](http://bintray.com/jplandrain/djeclipse/djeclipse-update-site "DJEclipse on Bintray") as soon as the first release is ready.
 
-http://bintray.com/jplandrain/djeclipse/djeclipse-update-site
 
-In the meantime, you can donwload the preliminary releases from the continuous integration platform: http://djeclipse.ci.cloudbees.com/job/DJEclipse/
+In the meantime, you can donwload the preliminary releases from the [continuous integration platform](http://djeclipse.ci.cloudbees.com/job/DJEclipse/).
 
 Continuous Integration
 ======================
 
 [![Build Status](https://djeclipse.ci.cloudbees.com/buildStatus/icon?job=DJEclipse)](https://djeclipse.ci.cloudbees.com/job/DJEclipse/)
 
-DJEclipse is a FOSS project hosted on CloudBees: http://djeclipse.ci.cloudbees.com
+DJEclipse is a FOSS project hosted on [CloudBees](http://djeclipse.ci.cloudbees.com "DJEclipse on Cloudbees").
 
-Check http://www.cloudbees.com/foss for the details of the FOSS program at CloudBees.
+Check [here](http://www.cloudbees.com/foss "the FOSS program at Cloudbees") for the details of the FOSS program at CloudBees.
 
 ![](http://web-static-cloudfront.s3.amazonaws.com/images/badges/BuiltOnDEV.png)
