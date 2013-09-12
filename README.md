@@ -3,6 +3,8 @@ DJEclipse
 
 An Eclipse plugin that gives access to several java decompilers side-by-side.
 
+It works with Eclipse 3.8-4.2 (Juno releases) and above.
+
 Changelog
 =========
 
