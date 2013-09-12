@@ -27,10 +27,10 @@ In the meantime, you can donwload the preliminary releases from the [continuous 
 Continuous Integration
 ======================
 
-[![Build Status](https://djeclipse.ci.cloudbees.com/buildStatus/icon?job=DJEclipse)](https://djeclipse.ci.cloudbees.com/job/DJEclipse/)
+[![Build Status](https://djeclipse.ci.cloudbees.com/buildStatus/icon?job=DJEclipse)](http://djeclipse.ci.cloudbees.com/job/DJEclipse/)
 
-DJEclipse is a FOSS project hosted on [CloudBees](http://djeclipse.ci.cloudbees.com "DJEclipse on Cloudbees").
+DJEclipse is a FOSS project hosted on [CloudBees](http://djeclipse.ci.cloudbees.com "DJEclipse on CloudBees").
 
-Check [here](http://www.cloudbees.com/foss "the FOSS program at Cloudbees") for the details of the FOSS program at CloudBees.
+Check [here](http://www.cloudbees.com/foss "the FOSS program at CloudBees") for the details of the FOSS program at CloudBees.
 
-![](http://web-static-cloudfront.s3.amazonaws.com/images/badges/BuiltOnDEV.png)
+[![CloudBees](http://web-static-cloudfront.s3.amazonaws.com/images/badges/BuiltOnDEV.png)](http://www.cloudbees.com)
