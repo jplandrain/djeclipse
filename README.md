@@ -20,7 +20,8 @@ Roadmap
 Installation
 ============
 
-The Eclipse update site will be published on BinTray as soon as the first release is ready. 
+The Eclipse update site will be published on BinTray as soon as the first release is ready.
+
 https://bintray.com/jplandrain/djeclipse/djeclipse-update-site
 
 Continuous Integration
