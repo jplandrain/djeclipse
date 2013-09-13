@@ -10,6 +10,9 @@ import org.eclipse.core.resources.ResourcesPlugin;
 import org.eclipse.core.runtime.IPath;
 import org.eclipse.core.runtime.IProgressMonitor;
 import org.eclipse.core.runtime.Path;
+import org.eclipse.jdt.core.IClassFile;
+import org.eclipse.jdt.core.IJavaElement;
+import org.eclipse.jdt.core.IPackageFragment;
 import org.eclipse.jdt.internal.ui.javaeditor.ExternalClassFileEditorInput;
 import org.eclipse.jdt.internal.ui.javaeditor.InternalClassFileEditorInput;
 import org.eclipse.swt.SWT;
@@ -49,7 +52,8 @@ public class MultiPageClassFileViewer extends MultiPageEditorPart implements IRe
 
 	private StyledText CFRText;
 	
-	private IPath path;	
+	private IPath filePath;
+	private IPath jarPath;
 	
 	/**
 	 * Creates a multi-page editor example.
@@ -190,14 +194,14 @@ public class MultiPageClassFileViewer extends MultiPageEditorPart implements IRe
 		CFRText.setStyleRange(headerStyle);
 		
 		StringBuilder strPath = new StringBuilder("Decompiling class file at ");
-		strPath.append(path);
+		strPath.append(filePath);
 		String logMsg = strPath.toString();
 		Activator.debugProcess(logMsg);
 		Activator.printToPluginConsole(logMsg);
 		
 		String cfrResult = null;
 		try {
-			cfrResult = CFRDecompiler.decompile(path.toString());
+			cfrResult = CFRDecompiler.decompile(jarPath, filePath);
 		} catch(DecompilerException dce) {
 			cfrResult = Activator.getStackTrace(dce);
 		}		
@@ -254,7 +258,7 @@ public class MultiPageClassFileViewer extends MultiPageEditorPart implements IRe
 				errorMsg.append(" is not a class file");
 				throw new PartInitException(errorMsg.toString());
 			}
-			path = file.getLocation();
+			filePath = file.getLocation();
 		} else if(editorInput instanceof FileStoreEditorInput) {
 			FileStoreEditorInput fileEditor = (FileStoreEditorInput)editorInput;
 			URI fileURI = fileEditor.getURI();
@@ -264,13 +268,19 @@ public class MultiPageClassFileViewer extends MultiPageEditorPart implements IRe
 				errorMsg.append(" is not a class file");
 				throw new PartInitException(errorMsg.toString());
 			}
-			path = new Path(fileURI.getPath());	
+			filePath = new Path(fileURI.getPath());	
 		} else if(editorInput instanceof InternalClassFileEditorInput) {
 			InternalClassFileEditorInput classFileEditorInput = (InternalClassFileEditorInput)editorInput;
-			path = classFileEditorInput.getPath();
+			filePath = classFileEditorInput.getPath();
+			IClassFile classFile = classFileEditorInput.getClassFile();	 		
+			IJavaElement parentElement = classFile.getParent();
+			if(parentElement != null && parentElement instanceof IPackageFragment) {
+				IPackageFragment parent = (IPackageFragment)parentElement;
+				jarPath = parent.getPath();
+			}
 		} else if(editorInput instanceof ExternalClassFileEditorInput) {
 			ExternalClassFileEditorInput classFileEditorInput = (ExternalClassFileEditorInput)editorInput;
-			path = classFileEditorInput.getPath();
+			filePath = classFileEditorInput.getPath();
 		}
 		
 		// Set the title of the multi-editor tab with the filename

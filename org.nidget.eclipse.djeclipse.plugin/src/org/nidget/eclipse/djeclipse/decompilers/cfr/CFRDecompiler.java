@@ -8,16 +8,18 @@ import org.benf.cfr.reader.util.getopt.CFRState;
 import org.benf.cfr.reader.util.getopt.GetOptParser;
 import org.benf.cfr.reader.util.output.Dumper;
 import org.benf.cfr.reader.util.output.ToStringDumper;
+import org.eclipse.core.runtime.IPath;
 import org.nidget.eclipse.djeclipse.decompilers.exceptions.DecompilerException;
 
 public class CFRDecompiler {
 
-	public static String decompile(String classPath) {
+	public static String decompile(IPath jarPath, IPath classPath) {
+		String classPathStr = classPath.toString();
 		GetOptParser getOptParser = new GetOptParser();
 
 		try {
-			CFRState params = (CFRState) getOptParser.parse(new String[] {classPath}, CFRState.getFactory());
-			ClassFile c = params.getClassFileMaybePath(classPath, false);
+			CFRState params = (CFRState) getOptParser.parse(new String[] {classPathStr}, CFRState.getFactory());
+			ClassFile c = params.getClassFileMaybePath(classPathStr, false);
 
 			params.setClassFileVersion(c.getClassFileVersion());
 
