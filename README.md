@@ -31,7 +31,7 @@ Continuous Integration
 
 [![Build Status](https://djeclipse.ci.cloudbees.com/buildStatus/icon?job=DJEclipse)](http://djeclipse.ci.cloudbees.com/job/DJEclipse/)
 
-DJEclipse is a FOSS project hosted on [CloudBees](http://djeclipse.ci.cloudbees.com "DJEclipse on CloudBees") DEV@cloud.
+DJEclipse is a FOSS project hosted on [CloudBees](http://djeclipse.ci.cloudbees.com "DJEclipse on CloudBees") [DEV@cloud](http://www.cloudbees.com/dev.cb).
 
 Check [here](http://www.cloudbees.com/foss "the FOSS program at CloudBees") for the details of the FOSS program at CloudBees.
 
