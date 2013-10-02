@@ -10,7 +10,7 @@ Changelog
 
 * 0.0.1-SNAPSHOT (2013/09/12)
 
-The current very unstable preliminary version integrates the CFR decompiler 0.31 of [Lee Benfield](http://www.benf.org).
+The current very unstable preliminary version integrates the CFR decompiler of [Lee Benfield](http://www.benf.org).
 
 Roadmap
 =======
