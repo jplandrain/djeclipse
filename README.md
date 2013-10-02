@@ -8,7 +8,7 @@ It works with Eclipse 3.8-4.2 (Juno releases) and above.
 Changelog
 =========
 
-* 0.0.1-SNAPSHOT (2013/09/12)
+* 0.0.1-SNAPSHOT
 
 The current very unstable preliminary version integrates the CFR decompiler of [Lee Benfield](http://www.benf.org).
 
