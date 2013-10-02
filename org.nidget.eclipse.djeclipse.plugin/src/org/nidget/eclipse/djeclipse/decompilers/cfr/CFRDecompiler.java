@@ -1,6 +1,7 @@
 package org.nidget.eclipse.djeclipse.decompilers.cfr;
 
 import org.benf.cfr.reader.entities.ClassFile;
+import org.benf.cfr.reader.entities.Method;
 import org.benf.cfr.reader.util.CannotLoadClassException;
 import org.benf.cfr.reader.util.ConfusedCFRException;
 import org.benf.cfr.reader.util.getopt.BadParametersException;
@@ -18,13 +19,15 @@ public class CFRDecompiler {
 		GetOptParser getOptParser = new GetOptParser();
 
 		try {
-			CFRState params = (CFRState) getOptParser.parse(new String[] {classPathStr}, CFRState.getFactory());
-			ClassFile c = params.getClassFileMaybePath(classPathStr, false);
+			CFRState params = (CFRState)getOptParser.parse(new String[] {classPathStr}, CFRState.getFactory());
+			ClassFile c = params.getClassFileMaybePath(params.getFileName());
 
 			params.setClassFileVersion(c.getClassFileVersion());
-
 			try {
-				c = params.getClassFile(c.getClassType(), true);
+				c = params.getClassFile(c.getClassType());
+				if (params.analyseInnerClasses()) {
+					 c.loadInnerClasses(params);
+				}
 			} catch (CannotLoadClassException e) {
 			}
 
@@ -35,7 +38,9 @@ public class CFRDecompiler {
 				c.dump(result);
 			} else {
 				try {
-					c.getMethodByName(methname).dump(result, true);
+					for (Method method : c.getMethodByName(methname)) {
+						method.dump(result, true);
+					}
 				} catch (NoSuchMethodException e) {
 					throw new BadParametersException("No such method '"
 							+ methname + "'.", CFRState.getFactory());
