@@ -26,7 +26,7 @@ The Eclipse update site will be published on [Bintray](http://bintray.com/jpland
 
 In the meantime, you can donwload the preliminary releases from the [continuous integration platform](http://djeclipse.ci.cloudbees.com/job/DJEclipse/).
 
-Continuous Integration
+[Continuous Integration](http://djeclipse.ci.cloudbees.com "DJEclipse on CloudBees")
 ======================
 
 [![Build Status](https://djeclipse.ci.cloudbees.com/buildStatus/icon?job=DJEclipse)](http://djeclipse.ci.cloudbees.com/job/DJEclipse/)
