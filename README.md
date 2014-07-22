@@ -13,7 +13,6 @@ Changelog
 * Updated CFR from version 0.38 to version 0.80.
 * Added Eclipse 4.5 ("Eclipse Mars") profile.
 
-
 ##### 0.0.1-SNAPSHOT
 
 * This very unstable preliminary version integrates the CFR decompiler of [Lee Benfield](http://www.benf.org).
