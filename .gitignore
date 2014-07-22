@@ -16,3 +16,4 @@ target/
 # Package Files in all levels
 **/*.war
 **/*.ear
+/.project
