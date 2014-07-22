@@ -2,7 +2,7 @@
 <feature
       id="org.nidget.eclipse.djeclipse.feature"
       label="DJEclipse plugin"
-      version="0.0.1.qualifier"
+      version="0.0.2.qualifier"
       provider-name="Nidget.org">
 
    <description url="https://github.com/jplandrain/djeclipse">
@@ -10,17 +10,17 @@
    </description>
 
    <copyright>
-     %copyright
+      %copyright
    </copyright>
 
    <license url="%licenseURL">
-     %license
+      %license
    </license>
 
    <plugin
          id="org.nidget.eclipse.djeclipse.plugin"
          download-size="0"
          install-size="0"
-         version="0.0.1.qualifier"/>
+         version="0.0.2.qualifier"/>
 
 </feature>

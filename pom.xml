@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.nidget.eclipse.djeclipse</groupId>
   <artifactId>djeclipse</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.2-SNAPSHOT</version>
   <packaging>pom</packaging>
   <modules>
     <module>org.nidget.eclipse.djeclipse.plugin</module>  
@@ -94,6 +94,16 @@
 	      <id>luna</id>
 	      <layout>p2</layout>
     	  <url>http://download.eclipse.org/releases/luna/</url>
+        </repository>
+      </repositories>
+    </profile>
+    <profile>
+      <id>mars</id>
+      <repositories>
+        <repository>
+	      <id>mars</id>
+	      <layout>p2</layout>
+    	  <url>http://download.eclipse.org/releases/mars/</url>
         </repository>
       </repositories>
     </profile>    
