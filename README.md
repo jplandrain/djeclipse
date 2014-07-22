@@ -10,8 +10,8 @@ Changelog
 
 ##### 0.0.2-SNAPSHOT
 
-* Updated CFR from version 0.38 to version 0.80.
-* Added Eclipse 4.5 ("Eclipse Mars") profile.
+* Updated CFR from version 0.38 to version 0.80
+* Added Eclipse 4.5 ("Eclipse Mars") profile
 
 ##### 0.0.1-SNAPSHOT
 
