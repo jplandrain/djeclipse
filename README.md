@@ -8,6 +8,10 @@ It works with Eclipse 3.8-4.2 (Juno releases) and above.
 Changelog
 =========
 
+##### 0.0.3-SNAPSHOT (2014-08-26)
+
+* Updated CFR from version 0.80 to version 0.87
+
 ##### 0.0.2-SNAPSHOT
 
 * Updated CFR from version 0.38 to version 0.80
