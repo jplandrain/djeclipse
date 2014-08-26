@@ -8,21 +8,22 @@ It works with Eclipse 3.8-4.2 (Juno releases) and above.
 Changelog
 =========
 
-##### 0.0.3-SNAPSHOT (2014-08-26)
+##### 0.0.3 (2014-08-26)
 
 * Updated CFR from version 0.80 to version 0.87
+* Eclipse Update Site available on BinTray
 
-##### 0.0.2-SNAPSHOT
+##### 0.0.2
 
 * Updated CFR from version 0.38 to version 0.80
 * Added Eclipse 4.5 ("Eclipse Mars") profile
 
-##### 0.0.1-SNAPSHOT
+##### 0.0.1
 
 * This very unstable preliminary version integrates the CFR decompiler of [Lee Benfield](http://www.benf.org).
 
 Roadmap
-=======
+======= 
 
 - Integrate the [JD Project](http://jd.benow.ca/) of Emmanuel Dupuy.
 - Improve the usability.
@@ -30,10 +31,9 @@ Roadmap
 Installation
 ============
 
-The Eclipse update site will be published on [Bintray](http://bintray.com/jplandrain/djeclipse/djeclipse-update-site "DJEclipse on Bintray") as soon as the first release is ready.
+The Eclipse update site is located at http://bintray.com/jplandrain/djeclipse/djeclipse-update-site/update
 
-
-In the meantime, you can donwload the preliminary releases from the [continuous integration platform](http://djeclipse.ci.cloudbees.com/job/DJEclipse/).
+You can also download releases from the [continuous integration platform](http://djeclipse.ci.cloudbees.com/job/DJEclipse/) for offline installation.
 
 [Continuous Integration](http://djeclipse.ci.cloudbees.com "DJEclipse on CloudBees")
 ======================
