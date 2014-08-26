@@ -2,7 +2,7 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: DJEclipse
 Bundle-SymbolicName: org.nidget.eclipse.djeclipse.plugin; singleton:=true
-Bundle-Version: 0.0.3.qualifier
+Bundle-Version: 0.0.3
 Bundle-Activator: org.nidget.eclipse.djeclipse.Activator
 Bundle-Vendor: Nidget.org
 Require-Bundle: org.eclipse.ui,
