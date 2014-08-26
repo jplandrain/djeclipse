@@ -5,6 +5,13 @@ An Eclipse plugin that gives access to several java decompilers side-by-side.
 
 It works with Eclipse 3.8-4.2 (Juno releases) and above.
 
+Installation
+============
+
+The Eclipse update site is located at http://dl.bintray.com/jplandrain/djeclipse/
+
+You can also download releases from the [continuous integration platform](http://djeclipse.ci.cloudbees.com/job/DJEclipse/) for offline installation.
+
 Changelog
 =========
 
@@ -27,13 +34,6 @@ Roadmap
 
 - Integrate the [JD Project](http://jd.benow.ca/) of Emmanuel Dupuy.
 - Improve the usability.
-
-Installation
-============
-
-The Eclipse update site is located at http://dl.bintray.com/jplandrain/djeclipse/
-
-You can also download releases from the [continuous integration platform](http://djeclipse.ci.cloudbees.com/job/DJEclipse/) for offline installation.
 
 [Continuous Integration](http://djeclipse.ci.cloudbees.com "DJEclipse on CloudBees")
 ======================
