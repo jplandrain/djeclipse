@@ -31,7 +31,7 @@ Roadmap
 Installation
 ============
 
-The Eclipse update site is located at http://bintray.com/jplandrain/djeclipse/djeclipse-update-site/update
+The Eclipse update site is located at http://dl.bintray.com/jplandrain/djeclipse/
 
 You can also download releases from the [continuous integration platform](http://djeclipse.ci.cloudbees.com/job/DJEclipse/) for offline installation.
 
