@@ -40,7 +40,7 @@ Roadmap
 
 [![Build Status](https://djeclipse.ci.cloudbees.com/buildStatus/icon?job=DJEclipse)](http://djeclipse.ci.cloudbees.com/job/DJEclipse/)
 
-DJEclipse is a Free and Open Source Software (FOSS) hosted gracefully on CloudBees [DEV@cloud](http://www.cloudbees.com/dev.cb "DEV@cloud").
+DJEclipse is a Free and Open Source Software (FOSS) project hosted gracefully on CloudBees [DEV@cloud](http://www.cloudbees.com/dev.cb "DEV@cloud").
 
 Check [here](http://www.cloudbees.com/resources/foss "the FOSS program at CloudBees") for the details of the FOSS program at CloudBees.
 
