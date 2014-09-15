@@ -42,6 +42,6 @@ Roadmap
 
 DJEclipse is a Free and Open Source Software (FOSS) project hosted gracefully on CloudBees [DEV@cloud](http://www.cloudbees.com/dev.cb "DEV@cloud").
 
-Check [here](http://www.cloudbees.com/resources/foss "the FOSS program at CloudBees") for the details of the FOSS program at CloudBees.
+Check [here](http://www.cloudbees.com/resources/foss "the FOSS program at CloudBees") the details of the FOSS program at CloudBees.
 
 [![CloudBees](http://web-static-cloudfront.s3.amazonaws.com/images/badges/BuiltOnDEV.png)](http://www.cloudbees.com)
