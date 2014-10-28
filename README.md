@@ -41,7 +41,7 @@ Roadmap
 Twitter
 =======
 
-Follow <a href="https://twitter.com/DJEclipsePlugin" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false">@DJEclipsePlugin</a> on Twitter
+Follow <a href="https://twitter.com/DJEclipsePlugin" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false">@DJEclipse</a> on Twitter
 
 [Continuous Integration](http://djeclipse.ci.cloudbees.com "DJEclipse on CloudBees")
 ======================
