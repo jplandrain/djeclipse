@@ -2,7 +2,7 @@
 <feature
       id="org.nidget.eclipse.djeclipse.feature"
       label="DJEclipse plugin"
-      version="0.0.3"
+      version="0.0.4"
       provider-name="Nidget.org">
 
    <description url="https://github.com/jplandrain/djeclipse">
@@ -21,6 +21,6 @@
          id="org.nidget.eclipse.djeclipse.plugin"
          download-size="0"
          install-size="0"
-         version="0.0.3"/>
+         version="0.0.4"/>
 
 </feature>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/org.nidget.eclipse.djeclipse.feature_0.0.3.jar" id="org.nidget.eclipse.djeclipse.feature" version="0.0.3">
+   <feature url="features/org.nidget.eclipse.djeclipse.feature_0.0.4.jar" id="org.nidget.eclipse.djeclipse.feature" version="0.0.4">
       <category name="djeclipse"/>
    </feature>
    <category-def name="djeclipse" label="DJEclipse"/>

@@ -5,10 +5,10 @@
   <parent>
     <artifactId>djeclipse</artifactId>
     <groupId>org.nidget.eclipse.djeclipse</groupId>
-    <version>0.0.3</version>
+    <version>0.0.4</version>
   </parent>
   <groupId>org.nidget.eclipse.djeclipse</groupId>
   <artifactId>org.nidget.eclipse.djeclipse.feature</artifactId>
-  <version>0.0.3</version>
+  <version>0.0.4</version>
   <packaging>eclipse-feature</packaging>
 </project>
