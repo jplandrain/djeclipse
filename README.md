@@ -15,6 +15,9 @@ You can also download releases from the [continuous integration platform](http:/
 Changelog
 =========
 
+<a href="https://twitter.com/DJEclipsePlugin" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false">Follow @DJEclipsePlugin</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
 ##### 0.0.4 (2014-10-28)
 * Updated CFR from version 0.87 to version 0.88 
 
