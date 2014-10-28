@@ -1,4 +1,4 @@
-DJEclipse
+DJEclipse 
 =========
 
 An Eclipse plugin that gives access to several java decompilers side-by-side.
@@ -37,6 +37,11 @@ Roadmap
 
 - Integrate the [JD Project](http://jd.benow.ca/) of Emmanuel Dupuy.
 - Improve the usability.
+
+Twitter
+=======
+
+Follow <a href="https://twitter.com/DJEclipsePlugin" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false">@DJEclipsePlugin</a> on Twitter
 
 [Continuous Integration](http://djeclipse.ci.cloudbees.com "DJEclipse on CloudBees")
 ======================
