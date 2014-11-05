@@ -58,5 +58,3 @@ Screenshot
 ==========
 
 ![DJEclipse context menu](https://github.com/jplandrain/djeclipse/blob/gh-pages/djeclipse-capture1.png)
-
-jplandrain/djeclipse/gh-pages/djeclipse-capture1.png
