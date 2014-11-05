@@ -57,6 +57,6 @@ Check [here](http://www.cloudbees.com/resources/foss "the FOSS program at CloudB
 Screenshot
 ==========
 
-![DJEclipse Context menu](gh-pages/djeclipse-capture1.png)
+![DJEclipse context menu](gh-pages/djeclipse-capture1.png)
 
 jplandrain/djeclipse/gh-pages/djeclipse-capture1.png
