@@ -53,3 +53,10 @@ DJEclipse is a Free and Open Source Software (FOSS) project hosted gracefully on
 Check [here](http://www.cloudbees.com/resources/foss "the FOSS program at CloudBees") the details of the FOSS program at CloudBees.
 
 [![CloudBees](http://web-static-cloudfront.s3.amazonaws.com/images/badges/BuiltOnDEV.png)](http://www.cloudbees.com)
+
+Screenshot
+==========
+
+![DJEclipse Context menu](jplandrain.github.com/djeclipse/gh-pages/djeclipse-capture1.png)7
+
+jplandrain/djeclipse/gh-pages/djeclipse-capture1.png
