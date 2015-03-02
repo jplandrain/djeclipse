@@ -57,7 +57,12 @@ Check [here](http://www.cloudbees.com/resources/foss "the FOSS program at CloudB
 
 [![CloudBees](http://web-static-cloudfront.s3.amazonaws.com/images/badges/BuiltOnDEV.png)](http://www.cloudbees.com)
 
-Screenshot
-==========
+Screenshots
+===========
+Decompiling a simple class
 
-![context menu screenshot](https://github.com/jplandrain/djeclipse/blob/gh-pages/screenshots/djeclipse-capture1.png)
+![context menu screenshot1](https://github.com/jplandrain/djeclipse/blob/gh-pages/screenshots/djeclipse-capture1.png)
+
+Decompiling a class loaded from a JAR library
+
+![context menu screenshot2](https://github.com/jplandrain/djeclipse/blob/gh-pages/screenshots/djeclipse-capture2.png)
