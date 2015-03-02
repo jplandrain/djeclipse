@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.nidget.eclipse.djeclipse</groupId>
   <artifactId>djeclipse</artifactId>
-  <version>0.0.4</version>
+  <version>0.0.5</version>
   <packaging>pom</packaging>
   <modules>
     <module>org.nidget.eclipse.djeclipse.plugin</module>  
@@ -13,7 +13,7 @@
   </modules>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	<tycho-version>0.20.0</tycho-version>
+	<tycho-version>0.22.0</tycho-version>
   </properties>
   <pluginRepositories>
     <pluginRepository>
