@@ -15,7 +15,7 @@ You can also download releases from the [continuous integration platform](http:/
 Changelog
 =========
 
-##### 0.0.5 (2014-03-02)
+##### 0.0.5 (2015-03-02)
 * Updated CFR from version 0.88 to version 0.97
 
 ##### 0.0.4 (2014-10-28)
