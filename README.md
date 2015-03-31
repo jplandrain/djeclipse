@@ -8,7 +8,7 @@ It works with Eclipse 3.8-4.2 (Juno releases) and above.
 Installation
 ============
 
-The Eclipse update site is located on [BinTray](http://dl.bintray.com/jplandrain/djeclipse).
+The Eclipse update site is located on [BinTray](http://dl.bintray.com/jplandrain/djeclipse). You can copy and paste the URL directly into your Eclipse IDE.
 
 You can also download releases from the [continuous integration platform](http://djeclipse.ci.cloudbees.com/job/DJEclipse/) for offline installation.
 
