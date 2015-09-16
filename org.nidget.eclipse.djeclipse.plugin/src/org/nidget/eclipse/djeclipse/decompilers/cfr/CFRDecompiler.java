@@ -1,7 +1,9 @@
 package org.nidget.eclipse.djeclipse.decompilers.cfr;
 
+import org.benf.cfr.reader.api.ClassFileSource;
 import org.benf.cfr.reader.entities.ClassFile;
 import org.benf.cfr.reader.entities.Method;
+import org.benf.cfr.reader.state.ClassFileSourceImpl;
 import org.benf.cfr.reader.state.DCCommonState;
 import org.benf.cfr.reader.state.TypeUsageCollector;
 import org.benf.cfr.reader.util.CannotLoadClassException;
@@ -22,11 +24,13 @@ public class CFRDecompiler {
 		GetOptParser getOptParser = new GetOptParser();
 
 		try {
-			Options options = (Options)getOptParser.parse(new String[] {classPathStr}, OptionsImpl.getFactory());		
-			DCCommonState dcCommonState = new DCCommonState(options);
+			Options options = (Options)getOptParser.parse(new String[] {classPathStr}, OptionsImpl.getFactory());
+			ClassFileSource classFileSource = new ClassFileSourceImpl(options);
+			DCCommonState dcCommonState = new DCCommonState(options, classFileSource);
 			Dumper dumper = new ToStringDumper();
 			
-			ClassFile c = dcCommonState.getClassFileMaybePath(options.getFileName());
+			String path = (String)options.getOption(OptionsImpl.FILENAME);
+			ClassFile c = dcCommonState.getClassFileMaybePath(path);
 			dcCommonState.configureWith(c);
 			try {
 				c = dcCommonState.getClassFile(c.getClassType());
@@ -37,7 +41,7 @@ public class CFRDecompiler {
 			TypeUsageCollector collectingDumper = new TypeUsageCollector(c);
 			c.collectTypeUsages(collectingDumper);
 			
-			String methname = options.getMethodName();
+			String methname = (String)options.getOption(OptionsImpl.METHODNAME);
 			if (methname == null) {
 				c.dump(dumper);
 			} else {
