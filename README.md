@@ -1,7 +1,7 @@
 DJEclipse 
 =========
 
-An Eclipse plugin that gives access to the Class File Reader (CFR) java decompiler of [Lee Benfield](http://www.benf.org).
+An Eclipse plugin to integrate the Class File Reader (CFR) java decompiler of [Lee Benfield](http://www.benf.org).
 
 It works with Eclipse 3.8-4.2 (Juno releases) and above.
 
