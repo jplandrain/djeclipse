@@ -9,13 +9,9 @@
       An Eclipse plugin that gives access to several java decompilers side-by-side.
    </description>
 
-   <copyright>
-      %copyright
-   </copyright>
+   <copyright>%copyright</copyright>
 
-   <license url="%licenseURL">
-      %license
-   </license>
+   <license url="%licenseURL">%license</license>
 
    <plugin
          id="org.nidget.eclipse.djeclipse.plugin"
