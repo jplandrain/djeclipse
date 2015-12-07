@@ -7,8 +7,6 @@ import org.benf.cfr.reader.state.ClassFileSourceImpl;
 import org.benf.cfr.reader.state.DCCommonState;
 import org.benf.cfr.reader.state.TypeUsageCollector;
 import org.benf.cfr.reader.util.CannotLoadClassException;
-import org.benf.cfr.reader.util.ConfusedCFRException;
-import org.benf.cfr.reader.util.getopt.BadParametersException;
 import org.benf.cfr.reader.util.getopt.GetOptParser;
 import org.benf.cfr.reader.util.getopt.Options;
 import org.benf.cfr.reader.util.getopt.OptionsImpl;
@@ -50,18 +48,13 @@ public class CFRDecompiler {
 						method.dump(dumper, true);
 					}
 				} catch (NoSuchMethodException e) {
-					throw new BadParametersException("No such method '" + methname + "'.", OptionsImpl.getFactory());
+					throw new Exception("No such method '" + methname + "'.");
 				}
 			}
 			return dumper.toString();
-		} catch (CannotLoadClassException clce) {
-			throw new DecompilerException(clce);
-		} catch (BadParametersException bpe) {
-			throw new DecompilerException(bpe); 
-		} catch (ConfusedCFRException ccfre) {
-			throw new DecompilerException(ccfre);
-		} catch (RuntimeException rte) {
+		} catch (Exception rte) {
 			throw new DecompilerException(rte);
 		}
 	}
+
 }
