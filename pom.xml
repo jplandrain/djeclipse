@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.nidget.eclipse.djeclipse</groupId>
   <artifactId>djeclipse</artifactId>
-  <version>0.0.7</version>
+  <version>0.0.8</version>
   <packaging>pom</packaging>
   <modules>
     <module>org.nidget.eclipse.djeclipse.plugin</module>  

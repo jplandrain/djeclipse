@@ -16,6 +16,9 @@ Archived releases can be obtained from the [maven repository](http://repository-
 
 Changelog
 =========
+##### 0.0.8 (2016-05-23)
+* Updated CFR from version 0.110 to version 0.115
+
 ##### 0.0.7 (2015-12-03)
 * Updated CFR from version 0.103 to version 0.110
 
