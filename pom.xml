@@ -106,7 +106,17 @@
     	  <url>http://download.eclipse.org/releases/mars/</url>
         </repository>
       </repositories>
-    </profile>    
+    </profile>
+    <profile>
+      <id>neon</id>
+      <repositories>
+        <repository>
+          <id>neon</id>
+          <layout>p2</layout>
+          <url>http://download.eclipse.org/releases/neon/</url>
+        </repository>
+      </repositories>
+    </profile>
   </profiles>  
   <ciManagement>
     <system>Jenkins</system>
