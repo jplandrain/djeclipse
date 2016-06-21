@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.nidget.eclipse.djeclipse</groupId>
   <artifactId>djeclipse</artifactId>
-  <version>0.0.7</version>
+  <version>0.0.8</version>
   <packaging>pom</packaging>
   <modules>
     <module>org.nidget.eclipse.djeclipse.plugin</module>  
@@ -106,7 +106,17 @@
     	  <url>http://download.eclipse.org/releases/mars/</url>
         </repository>
       </repositories>
-    </profile>    
+    </profile>
+    <profile>
+      <id>neon</id>
+      <repositories>
+        <repository>
+          <id>neon</id>
+          <layout>p2</layout>
+          <url>http://download.eclipse.org/releases/neon/</url>
+        </repository>
+      </repositories>
+    </profile>
   </profiles>  
   <ciManagement>
     <system>Jenkins</system>
