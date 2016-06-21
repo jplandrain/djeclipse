@@ -66,7 +66,7 @@ Continuous Integration
 
 DJEclipse is a Free and Open Source Software (FOSS) project hosted gracefully on CloudBees [DEV@cloud](http://www.cloudbees.com/dev.cb "DEV@cloud").
 
-[![CloudBees DEV@cloud logo](http://web-static-cloudfront.s3.amazonaws.com/images/badges/BuiltOnDEV.png)
+![CloudBees DEV@cloud logo](http://web-static-cloudfront.s3.amazonaws.com/images/badges/BuiltOnDEV.png)
 
 Screenshots
 ===========
