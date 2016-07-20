@@ -5,7 +5,7 @@ install: mvn package -Dskiptests=true -Dmaven.javadoc.skip=true -B -V
 deploy:
   skip_cleanup: true
   provider: script
-  script: cd org.nidget.eclipse.djeclipse.p2updatesite; ls -al
+  script: pwd; ls -al
 #  provider: bintray
 #  file: .bintray-descriptor.json
 #  user: jplandrain
