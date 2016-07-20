@@ -11,7 +11,7 @@
 
     "files":
         [
-        {"includePattern": "", "uploadPattern": ""}
+        {"includePattern": "./org.nidget.eclipse.djeclipse.p2updatesite/target/org.nidget.eclipse.djeclipse.p2updatesite-(.*).zip$", "uploadPattern": "/$1.zip"}
         ],
-    "publish": true
+    "publish": "false"
 }
