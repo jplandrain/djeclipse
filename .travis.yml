@@ -3,9 +3,11 @@ jdk:
 - openjdk6
 install: mvn package -Dskiptests=true -Dmaven.javadoc.skip=true -B -V
 deploy:
-  provider: bintray
-  file: .bintray-descriptor.json
-  user: jplandrain
-  dry-run: true
-  key:
-    secure: zJO+oh96GO4br4Fiuf9ZSUvRxwslkVtDIHD7WJwr6L65KQP7/R40gmYe96Dd4AuLq9ruZYhjmPw8bku/YF4SZxU3HQ6iStJEcL/2t2DmUkjlSoBA3I6XcpKIoKoiBJtzgD6KIleegPlJ+3T3vmEbK0C9+C6Ox1A7frTSdX+kZiZzbxNmrzoKkl1wKQW5qXQ0xEMiOZq2uHaijkWPC5/IV2+6rpmheFFXjThg+2E4lxvGha7BrVp3iaSo/DUJ59DixkZ0oFupmnZRgAJ5QiGmphG4ekPAFZVvAQOjFChkZtXcbO6fquGdH9SgSZlhSczR69tbbm6y4jaBkyM8rjR6Kp7NeLJqsPGdbzrJ18R/SYLa7wN6HZeYlJsVFIl7NjDrcJb6Gwj6zCawaxRvqj8I7TnNtNePOpIuApSRQiDMQ2e1x0BgP6mzcl0pz4QNDKHpVeOXioH5T9+FReFEXM3aNFcbfBuzGE5cQvZwZ/UQD4hcm1n+NFTBNmPJStHyzYECpC5pJjhrGVOQr0TNtLNtjgGiZrBpVZjQENk8s3OyCbP4WfVpU7a6yPZaoW2UQ1/aMitolRrMR6C+/rI1f3sU2eiEhW0Ef6zExF/mpkXQRzyPJ/0rvWO4KQjGu82Zpwrw8CLoVLRcTlTda6L+1yYRxbfZO8UKiGxEo0CEa4mvE+k=
+  provider: script
+  script: pwd; ls -al
+#  provider: bintray
+#  file: .bintray-descriptor.json
+#  user: jplandrain
+#  dry-run: true
+#  key:
+#    secure: zJO+oh96GO4br4Fiuf9ZSUvRxwslkVtDIHD7WJwr6L65KQP7/R40gmYe96Dd4AuLq9ruZYhjmPw8bku/YF4SZxU3HQ6iStJEcL/2t2DmUkjlSoBA3I6XcpKIoKoiBJtzgD6KIleegPlJ+3T3vmEbK0C9+C6Ox1A7frTSdX+kZiZzbxNmrzoKkl1wKQW5qXQ0xEMiOZq2uHaijkWPC5/IV2+6rpmheFFXjThg+2E4lxvGha7BrVp3iaSo/DUJ59DixkZ0oFupmnZRgAJ5QiGmphG4ekPAFZVvAQOjFChkZtXcbO6fquGdH9SgSZlhSczR69tbbm6y4jaBkyM8rjR6Kp7NeLJqsPGdbzrJ18R/SYLa7wN6HZeYlJsVFIl7NjDrcJb6Gwj6zCawaxRvqj8I7TnNtNePOpIuApSRQiDMQ2e1x0BgP6mzcl0pz4QNDKHpVeOXioH5T9+FReFEXM3aNFcbfBuzGE5cQvZwZ/UQD4hcm1n+NFTBNmPJStHyzYECpC5pJjhrGVOQr0TNtLNtjgGiZrBpVZjQENk8s3OyCbP4WfVpU7a6yPZaoW2UQ1/aMitolRrMR6C+/rI1f3sU2eiEhW0Ef6zExF/mpkXQRzyPJ/0rvWO4KQjGu82Zpwrw8CLoVLRcTlTda6L+1yYRxbfZO8UKiGxEo0CEa4mvE+k=
