@@ -1,0 +1,17 @@
+{
+    "package": {
+        "name": "djeclipse-update-site",
+        "repo": "djeclipse",
+        "subject": "jplandrain"
+    },
+
+    "version": {
+        "name": "update"
+    },
+
+    "files":
+        [
+        {"includePattern": "", "uploadPattern": ""}
+        ],
+    "publish": true
+}
