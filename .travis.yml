@@ -3,7 +3,7 @@ jdk:
 - openjdk6
 script: mvn package -Dmaven.javadoc.skip=true -B -V
 deploy:
-  skip_cleanup: true
+#  skip_cleanup: true
   provider: script
   script: cd org.nidget.eclipse.djeclipse.p2updatesite/target/; pwd; ls -al
 #  provider: bintray
