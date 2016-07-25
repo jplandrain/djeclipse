@@ -1,4 +1,4 @@
-DJEclipse 
+DJEclipse <a href="https://twitter.com/DJEclipsePlugin" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false">@DJEclipsePlugin</a> 
 =========
 
 An Eclipse plugin to integrate the Class File Reader (CFR) java decompiler of [Lee Benfield](http://www.benf.org).
@@ -47,11 +47,6 @@ Roadmap
 
 - Java editor instead of a Text editor
 - Improve the usability: control the settings of the decompiler.
-
-Twitter
-=======
-
-Follow <a href="https://twitter.com/DJEclipsePlugin" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false">@DJEclipsePlugin</a> on Twitter
 
 Continuous Integration
 ======================
