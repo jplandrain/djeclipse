@@ -56,13 +56,9 @@ Follow <a href="https://twitter.com/DJEclipsePlugin" class="twitter-follow-butto
 Continuous Integration
 ======================
 
-### [Travis CI](https://travis-ci.org/jplandrain/djeclipse "Travis CI")
+* ### [Travis CI](https://travis-ci.org/jplandrain/djeclipse "Travis CI") [![Build Status](https://travis-ci.org/jplandrain/djeclipse.svg?branch=master)](https://travis-ci.org/jplandrain/djeclipse)
 
-[![Build Status](https://travis-ci.org/jplandrain/djeclipse.svg?branch=master)](https://travis-ci.org/jplandrain/djeclipse)
-
-### [DEV@cloud](http://www.cloudbees.com/dev.cb "DEV@cloud")
-
-[![Build Status](https://djeclipse.ci.cloudbees.com/buildStatus/icon?job=DJEclipse)](http://djeclipse.ci.cloudbees.com/job/DJEclipse/)
+* ### [DEV@cloud](https://djeclipse.ci.cloudbees.com/job/DJEclipse/ "DEV@cloud") [![Build Status](https://djeclipse.ci.cloudbees.com/buildStatus/icon?job=DJEclipse)](http://djeclipse.ci.cloudbees.com/job/DJEclipse/)
 
 DJEclipse is a Free and Open Source Software (FOSS) project hosted gracefully on CloudBees [DEV@cloud](http://www.cloudbees.com/dev.cb "DEV@cloud").
 
