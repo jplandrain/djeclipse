@@ -1,4 +1,4 @@
-DJEclipse 
+DJEclipse <a href="https://twitter.com/DJEclipsePlugin" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false">@DJEclipsePlugin</a> 
 =========
 
 An Eclipse plugin to integrate the Class File Reader (CFR) java decompiler of [Lee Benfield](http://www.benf.org).
@@ -48,21 +48,12 @@ Roadmap
 - Java editor instead of a Text editor
 - Improve the usability: control the settings of the decompiler.
 
-Twitter
-=======
-
-Follow <a href="https://twitter.com/DJEclipsePlugin" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false">@DJEclipsePlugin</a> on Twitter
-
 Continuous Integration
 ======================
 
-### [Travis CI](https://travis-ci.org/jplandrain/djeclipse "Travis CI")
+* ### [Travis CI](https://travis-ci.org/jplandrain/djeclipse "Travis CI") [![Build Status](https://travis-ci.org/jplandrain/djeclipse.svg?branch=master)](https://travis-ci.org/jplandrain/djeclipse)
 
-[![Build Status](https://travis-ci.org/jplandrain/djeclipse.svg?branch=master)](https://travis-ci.org/jplandrain/djeclipse)
-
-### [DEV@cloud](http://www.cloudbees.com/dev.cb "DEV@cloud")
-
-[![Build Status](https://djeclipse.ci.cloudbees.com/buildStatus/icon?job=DJEclipse)](http://djeclipse.ci.cloudbees.com/job/DJEclipse/)
+* ### [DEV@cloud](https://djeclipse.ci.cloudbees.com/job/DJEclipse/ "DEV@cloud") [![Build Status](https://djeclipse.ci.cloudbees.com/buildStatus/icon?job=DJEclipse)](http://djeclipse.ci.cloudbees.com/job/DJEclipse/)
 
 DJEclipse is a Free and Open Source Software (FOSS) project hosted gracefully on CloudBees [DEV@cloud](http://www.cloudbees.com/dev.cb "DEV@cloud").
 
